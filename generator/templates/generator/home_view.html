@@ -1,0 +1,6 @@
+<h2>تولید تصویر سه‌بعدی از متن</h2>
+<form method="POST">
+  {% csrf_token %}
+  <input type="text" name="prompt" placeholder="متن خود را وارد کنید" />
+  <button type="submit">ارسال</button>
+</form>
